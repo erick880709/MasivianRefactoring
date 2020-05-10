@@ -1,0 +1,15 @@
+ - Se separa la lógica de tenerla en una sola clase a tenerla en 3 clases
+   - Se crea el paquete com.co.masivian.main el cual contiene la clase
+   main, la cual ejecuta la aplicación
+   - Se crea el paquete com.co.masivian.util el cual contiene la
+   clase PrinterConstantes , la cual es una clase donde se definen las
+   constantes y sus valores estáticos
+   - Se crea el paquete com.co.masivian.core el cual contiene la
+   clase Printer, encargada de realizar la ejecución del método o reglas de
+   negocio
+   - En la clase Printer.java se crea el método calcularPrinter() el cual
+   se encarga de realizar los cálculos necesarios para la impresión de
+   resultados por consola .
+   - Se reenplaza metodo while anidado por la sentencia if (MULT[N] == J)
+   lo cual hace que el tiempo de ejecucion o O grande disminuya el tiempo de
+   su realización.
