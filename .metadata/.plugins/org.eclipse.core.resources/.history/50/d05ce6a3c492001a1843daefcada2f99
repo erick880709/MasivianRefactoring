@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.co.masivian.util;
+
+/**
+ * @author erick clase de declaracion de constantes para la refactorizacion del
+ *         codigo
+ *
+ */
+public class PrinterConstantes {
+
+	static final int M = 1000;
+	static final int RR = 50;
+	static final int CC = 4;
+	static final int ORDMAX = 30;
+	static final int PAGENUMBER = 1;
+	static final int PAGEOFFSET = 1;
+	static final int ORD = 2;
+	static final int SQUARE = 9;
+
+}

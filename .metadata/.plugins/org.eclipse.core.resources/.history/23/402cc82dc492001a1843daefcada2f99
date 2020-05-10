@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.co.masivian.util;
+
+/**
+ * @author erick
+ *
+ */
+public class PrinterConstantes {
+
+	static  final int M = 1000;
+	static  final int RR = 50;
+	static  final int CC = 4;
+	static  final int ORDMAX = 30;
+}

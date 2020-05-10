@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.co.masivian.util;
+
+/**
+ * @author erick
+ *
+ */
+public enum PrinterEnum {
+
+}

@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package com.co.masivian.util;
+
+/**
+ * @author erick
+ *
+ */
+public enum PrinterEnum {
+	
+	private  final int M = 1000;
+	private final int RR = 50;
+	private final int CC = 4;
+	private final int ORDMAX = 30;
+	
+	private PrinterEnum(int M,int RR,int CC,int ORDMAX) {
+		this.M=M;
+		this.RR=RR;
+		this.CC=CC;
+		this.ORDMAX=ORDMAX;
+	}
+	public int getM() {
+		return M;
+	}
+	public int getRR() {
+		return RR;
+	}
+	public int getCC() {
+		return CC;
+	}
+	public int getORDMAX() {
+		return ORDMAX;
+	}
+	
+	
+
+}

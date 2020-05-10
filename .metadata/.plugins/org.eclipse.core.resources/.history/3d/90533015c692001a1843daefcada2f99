@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package com.co.masivian.core;
+
+import com.co.masivian.util.PrinterConstantes;
+
+/**
+ * @author erick
+ *
+ */
+public class Printer {
+
+	PrinterConstantes constantes = new PrinterConstantes();
+	int P[] = new int[PrinterConstantes.getM() + 1];
+	int C;
+	int J = 1;
+	int K = 1;
+	boolean JPRIME;
+	int N = 0;
+	int MULT[] = new int[PrinterConstantes.getOrdmax() + 1];
+
+	public void calcularPrinter() {
+		while (K < M) {
+			do {
+				J += 2;
+				if (J == SQUARE) {
+					ORD++;
+					SQUARE = P[ORD] * P[ORD];
+					MULT[ORD - 1] = J;
+				}
+				N = 2;
+				JPRIME = true;
+				while (N < ORD && JPRIME) {
+					while (MULT[N] < J)
+						MULT[N] += P[N] + P[N];
+					if (MULT[N] == J)
+						JPRIME = false;
+					N++;
+				}
+			} while (!JPRIME);
+			K++;
+			P[K] = J;
+		}
+	}
+}
